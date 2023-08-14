@@ -44,6 +44,10 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.lblBook = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // iblNome
@@ -52,7 +56,7 @@
             this.iblNome.BackColor = System.Drawing.Color.Transparent;
             this.iblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iblNome.ForeColor = System.Drawing.Color.White;
-            this.iblNome.Location = new System.Drawing.Point(46, 82);
+            this.iblNome.Location = new System.Drawing.Point(41, 82);
             this.iblNome.Name = "iblNome";
             this.iblNome.Size = new System.Drawing.Size(101, 36);
             this.iblNome.TabIndex = 0;
@@ -65,7 +69,7 @@
             this.lblBirthday.BackColor = System.Drawing.Color.Transparent;
             this.lblBirthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBirthday.ForeColor = System.Drawing.Color.White;
-            this.lblBirthday.Location = new System.Drawing.Point(46, 139);
+            this.lblBirthday.Location = new System.Drawing.Point(41, 139);
             this.lblBirthday.Name = "lblBirthday";
             this.lblBirthday.Size = new System.Drawing.Size(278, 36);
             this.lblBirthday.TabIndex = 1;
@@ -78,7 +82,7 @@
             this.lblCPF.BackColor = System.Drawing.Color.Transparent;
             this.lblCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCPF.ForeColor = System.Drawing.Color.White;
-            this.lblCPF.Location = new System.Drawing.Point(46, 200);
+            this.lblCPF.Location = new System.Drawing.Point(41, 200);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(82, 36);
             this.lblCPF.TabIndex = 2;
@@ -91,7 +95,7 @@
             this.lblGenero.BackColor = System.Drawing.Color.Transparent;
             this.lblGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGenero.ForeColor = System.Drawing.Color.White;
-            this.lblGenero.Location = new System.Drawing.Point(46, 265);
+            this.lblGenero.Location = new System.Drawing.Point(41, 265);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(122, 36);
             this.lblGenero.TabIndex = 3;
@@ -103,7 +107,7 @@
             this.lblCEP.BackColor = System.Drawing.Color.Transparent;
             this.lblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCEP.ForeColor = System.Drawing.Color.White;
-            this.lblCEP.Location = new System.Drawing.Point(46, 327);
+            this.lblCEP.Location = new System.Drawing.Point(41, 327);
             this.lblCEP.Name = "lblCEP";
             this.lblCEP.Size = new System.Drawing.Size(84, 36);
             this.lblCEP.TabIndex = 4;
@@ -114,7 +118,7 @@
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtNome.Location = new System.Drawing.Point(153, 86);
+            this.txtNome.Location = new System.Drawing.Point(148, 86);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(217, 32);
             this.txtNome.TabIndex = 5;
@@ -124,7 +128,7 @@
             // 
             this.txtCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCPF.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtCPF.Location = new System.Drawing.Point(134, 204);
+            this.txtCPF.Location = new System.Drawing.Point(129, 204);
             this.txtCPF.Name = "txtCPF";
             this.txtCPF.Size = new System.Drawing.Size(217, 32);
             this.txtCPF.TabIndex = 7;
@@ -134,7 +138,7 @@
             // 
             this.txtCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCEP.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtCEP.Location = new System.Drawing.Point(134, 331);
+            this.txtCEP.Location = new System.Drawing.Point(129, 331);
             this.txtCEP.Name = "txtCEP";
             this.txtCEP.Size = new System.Drawing.Size(171, 32);
             this.txtCEP.TabIndex = 9;
@@ -146,7 +150,7 @@
             this.checkBAceitar.BackColor = System.Drawing.Color.Transparent;
             this.checkBAceitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBAceitar.ForeColor = System.Drawing.SystemColors.Window;
-            this.checkBAceitar.Location = new System.Drawing.Point(52, 456);
+            this.checkBAceitar.Location = new System.Drawing.Point(47, 515);
             this.checkBAceitar.Name = "checkBAceitar";
             this.checkBAceitar.Size = new System.Drawing.Size(166, 17);
             this.checkBAceitar.TabIndex = 10;
@@ -160,7 +164,7 @@
             this.lblEndereço.BackColor = System.Drawing.Color.Transparent;
             this.lblEndereço.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEndereço.ForeColor = System.Drawing.Color.White;
-            this.lblEndereço.Location = new System.Drawing.Point(46, 384);
+            this.lblEndereço.Location = new System.Drawing.Point(41, 384);
             this.lblEndereço.Name = "lblEndereço";
             this.lblEndereço.Size = new System.Drawing.Size(151, 36);
             this.lblEndereço.TabIndex = 11;
@@ -171,16 +175,16 @@
             // 
             this.txtEndereço.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEndereço.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtEndereço.Location = new System.Drawing.Point(203, 388);
+            this.txtEndereço.Location = new System.Drawing.Point(198, 388);
             this.txtEndereço.Name = "txtEndereço";
-            this.txtEndereço.Size = new System.Drawing.Size(250, 32);
+            this.txtEndereço.Size = new System.Drawing.Size(260, 32);
             this.txtEndereço.TabIndex = 12;
-            this.txtEndereço.Text = "Av. Brasil, 00";
+            this.txtEndereço.Text = "Av. Brasil";
             // 
             // botao_Cadastrar
             // 
             this.botao_Cadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botao_Cadastrar.Location = new System.Drawing.Point(352, 445);
+            this.botao_Cadastrar.Location = new System.Drawing.Point(357, 504);
             this.botao_Cadastrar.Name = "botao_Cadastrar";
             this.botao_Cadastrar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.botao_Cadastrar.Size = new System.Drawing.Size(101, 34);
@@ -199,7 +203,7 @@
             "Cisgênero",
             "Transgênero",
             "Não Binário"});
-            this.listBox1.Location = new System.Drawing.Point(174, 268);
+            this.listBox1.Location = new System.Drawing.Point(169, 268);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(177, 29);
             this.listBox1.TabIndex = 14;
@@ -212,7 +216,7 @@
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dateTimePicker1.Location = new System.Drawing.Point(330, 143);
+            this.dateTimePicker1.Location = new System.Drawing.Point(325, 143);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(133, 32);
             this.dateTimePicker1.TabIndex = 15;
@@ -225,19 +229,68 @@
             this.lblBook.BackColor = System.Drawing.Color.Transparent;
             this.lblBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBook.ForeColor = System.Drawing.Color.White;
-            this.lblBook.Location = new System.Drawing.Point(161, 25);
+            this.lblBook.Location = new System.Drawing.Point(156, 25);
             this.lblBook.Name = "lblBook";
-            this.lblBook.Size = new System.Drawing.Size(190, 36);
+            this.lblBook.Size = new System.Drawing.Size(181, 36);
             this.lblBook.TabIndex = 16;
-            this.lblBook.Text = "BIBLIOTECA";
+            this.lblBook.Text = "CADASTRO";
             this.lblBook.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(374, 275);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(34, 17);
+            this.radioButton1.TabIndex = 17;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "M";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(425, 275);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(31, 17);
+            this.radioButton2.TabIndex = 18;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "F";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(41, 440);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(205, 36);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "Complemento:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.textBox1.Location = new System.Drawing.Point(252, 444);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(206, 32);
+            this.textBox1.TabIndex = 22;
+            this.textBox1.Text = "Número, apto";
             // 
             // Cadastros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(490, 516);
+            this.ClientSize = new System.Drawing.Size(490, 568);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.lblBook);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.listBox1);
@@ -255,6 +308,7 @@
             this.Controls.Add(this.iblNome);
             this.Name = "Cadastros";
             this.Text = "Sistema de Cadastro";
+            this.Load += new System.EventHandler(this.Cadastros_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,6 +331,10 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label lblBook;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
